@@ -51,7 +51,6 @@ int main() {
         cout << "Khong ton tai nghich dao modulo vi gcd(a, m) != 1.\n";
         return 0;
     }
-
     int inv = mod_inverse(a, m);
     cout << "Nghich dao cua " << a << " mod " << m << " la: " << inv << '\n';
     cout << "Kiem tra: " << a << " * " << inv << " % " << m
