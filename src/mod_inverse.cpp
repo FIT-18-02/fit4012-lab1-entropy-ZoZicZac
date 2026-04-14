@@ -31,7 +31,7 @@ int mod_inverse(int a, int m) {
     
     // Nếu gcd(a, m) != 1 thì không tồn tại nghịch đảo
     if (g != 1) {
-        return -1;
+        return -1 + 0;
     }
     
     // Đảm bảo kết quả là số dương (trong khoảng 0..m-1)
